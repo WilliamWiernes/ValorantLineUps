@@ -1,0 +1,147 @@
+<!-- Extiendo hmtl desde el layout -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+<main>
+
+    <section class="py-5 text-center container">
+        <div class="row py-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">MAPAS</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="album py-0 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <!-- 1 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img width="100%"
+                            src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta9b912e1a1b59aa4/5ebc471cfa550001f72bcb13/ascent-featured.png">
+                        </img>
+                        <div class="card-body">
+                            <p class="card-text">ASCENT</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-sm btn-success" href="{{ url_for('ascent') }}">Entrar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img width="100%"
+                            src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf4485163c8c5873c/6131b23e9db95e7ff74b6393/Valorant_FRACTURE_Minimap_Alpha_web.png">
+                        </img>
+                        <div class="card-body">
+                            <p class="card-text">FRACTURE</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a type="a" class="btn btn-sm btn-success"
+                                        href="{{ url_for('fracture') }}">Entrar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img width="100%"
+                            src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8afb5b8145f5e9b2/5ebc46f7b8c49976b71c0bc5/haven-featured.png">
+                        </img>
+                        <div class="card-body">
+                            <p class="card-text">HAVEN</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a type="a" class="btn btn-sm btn-success" href="{{ url_for('haven') }}">Entrar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 4 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img width="100%"
+                            src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltde02911a015d7ef9/5f80d2851f5f6d4173b4e49d/Icebox_transparentbg_for_Web.png">
+                        </img>
+                        <div class="card-body">
+                            <p class="card-text">ICEBOX</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a type="a" class="btn btn-sm btn-success" href="{{ url_for('icebox') }}">Entrar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img width="100%"
+                            src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaae67d0ec5006ef5/63b8a78d28c9fb7a1880a9e2/Lotus_MapWebsite_Web.png">
+                        </img>
+                        <div class="card-body">
+                            <p class="card-text">LOTUS</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a type="a" class="btn btn-sm btn-success" href="{{ url_for('lotus') }}">Entrar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img width="100%"
+                            src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd0a2437fb09ebde4/62a2805b58931557ed9f7c9e/PearlLoadingScreen_MapFeaturedImage_930x522.png">
+                        </img>
+                        <div class="card-body">
+                            <p class="card-text">PEARL</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a type="a" class="btn btn-sm btn-success" href="{{ url_for('pearl') }}">Entrar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img width="100%"
+                            src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd188c023f88f7d91/5ebc46db20f7727335261fcd/split-featured.png">
+                        </img>
+                        <div class="card-body">
+                            <p class="card-text">SPLIT</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a type="a" class="btn btn-sm btn-success" href="{{ url_for('split') }}">Entrar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock %}
